@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#screen {
+  position: relative;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 50px;
+  margin: 200px;
+  min-height: 59px;
+  padding: 13px 14px;
+  font-size: 1.4rem;
+}
+#panel {
+  margin-left: 600px;
+  display: grid;
+  grid-template-columns: 80px 100px 100px 100px;
+  grid-gap: 15px;
+}
+.btn,
+.result,
+.allClear,
+.clear {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.allClear,
+.clear {
+  border: 5px aqua;
+}
